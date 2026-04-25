@@ -84,7 +84,7 @@ header {
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 40px;
     align-items: center;
     min-height: 100vh
@@ -121,7 +121,7 @@ header {
 .about-grid,
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 40px;
     align-items: center
 }
