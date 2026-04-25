@@ -194,6 +194,34 @@ button {
     cursor: pointer
 }
 
+.social-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    color: #1e293b;
+    transition: background .25s, color .25s, transform .25s
+}
+
+.social-links a:hover {
+    background: #2563eb;
+    color: #fff;
+    transform: translateY(-4px)
+}
+
+.social-links .material-icons {
+    font-size: 22px
+}
+
 footer {
     background: #0f172a;
     color: #cbd5e1;
